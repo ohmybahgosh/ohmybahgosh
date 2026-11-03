@@ -25,13 +25,9 @@ That's how my TV ended up running a homebrew IPTV player I wrote because the one
 
 Three apps for LG TVs, each built to solve a problem I had.  They install from the Homebrew Channel and run with the remote, work over SSH too, are tried on a real TV before every release, and remove cleanly.
 
-<table>
-<tr>
-<td width="33%" valign="top">
+### <img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/assets/img/tivibro-icon.webp" width="28" align="top" alt=""> [TiviBro](https://ohmybahgosh.dev/tivibro/)
 
-### <img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/assets/img/tivibro-icon.webp" width="26" align="top" alt=""> [TiviBro](https://ohmybahgosh.dev/tivibro/)
-
-<a href="https://ohmybahgosh.dev/tivibro/"><img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/docs/page-tivibro.webp" width="100%" alt="TiviBro on ohmybahgosh.dev: the IPTV player LG TVs never got, with its guide on a TV"></a>
+<a href="https://ohmybahgosh.dev/tivibro/"><img src="assets/tivibro.webp" width="100%" alt="The TiviBro guide on a TV: browsing channels, previewing one in the window, then going fullscreen"></a>
 
 The IPTV player LG TVs never got.  Free and TiviMate-style for webOS 4 and up: guide-first, catch-up, movies and shows, sports and PPV, a web editor for your phone and an Android remote.  Bring your own Xtream Codes or M3U.
 
@@ -40,12 +36,11 @@ The IPTV player LG TVs never got.  Free and TiviMate-style for webOS 4 and up: g
 
 [Page](https://ohmybahgosh.dev/tivibro/) · [Repo](https://github.com/ohmybahgosh/TiviBro) · [tivibro.app](https://tivibro.app)
 
-</td>
-<td width="33%" valign="top">
+<br>
 
-### <img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/assets/img/eth0-icon.webp" width="26" align="top" alt=""> [LG-USB-2-ETH0](https://ohmybahgosh.dev/lg-usb-2-eth0/)
+### <img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/assets/img/eth0-icon.webp" width="28" align="top" alt=""> [LG-USB-2-ETH0](https://ohmybahgosh.dev/lg-usb-2-eth0/)
 
-<a href="https://ohmybahgosh.dev/lg-usb-2-eth0/"><img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/docs/page-eth0.webp" width="100%" alt="LG-USB-2-ETH0 on ohmybahgosh.dev: your TV's fast lane is eth0, with the TV app on a real LG C2"></a>
+<a href="https://ohmybahgosh.dev/lg-usb-2-eth0/"><img src="assets/eth0.webp" width="100%" alt="The LG-USB-2-ETH0 app on an LG C2: scrolling the menu, opening the Wi-Fi as a backup confirmation and the Report for GitHub QR code, then back to the top"></a>
 
 Makes a USB Ethernet adapter the TV's `eth0`, so settings and streaming apps use the faster wired link: two to three times the built-in port.  Finds, checks and installs a faster Realtek driver for your exact TV, and can keep Wi-Fi as a backup.
 
@@ -54,12 +49,11 @@ Makes a USB Ethernet adapter the TV's `eth0`, so settings and streaming apps use
 
 [Page](https://ohmybahgosh.dev/lg-usb-2-eth0/) · [Repo](https://github.com/ohmybahgosh/LG-USB-2-ETH0)
 
-</td>
-<td width="33%" valign="top">
+<br>
 
-### <img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/assets/img/entware-icon.webp" width="26" align="top" alt=""> [Entware](https://ohmybahgosh.dev/webos-entware-installer/)
+### <img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/assets/img/entware-icon.webp" width="28" align="top" alt=""> [Entware](https://ohmybahgosh.dev/webos-entware-installer/)
 
-<a href="https://ohmybahgosh.dev/webos-entware-installer/"><img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/docs/page-entware.webp" width="100%" alt="Entware on ohmybahgosh.dev: a real Linux toolbox on your TV, with the TV app's Add-ons screen"></a>
+<a href="https://ohmybahgosh.dev/webos-entware-installer/"><img src="assets/entware.webp" width="100%" alt="The Entware TV app with the remote: opening Add-ons, adding the Login banner and watching it install, then opening Package updates"></a>
 
 A real Linux toolbox for rooted webOS: hundreds of packages, a bash shell, package updates and one-press add-ons like git, Python, htop and a login banner.  Lives on the TV's roomy app storage and uninstalls cleanly.
 
@@ -68,9 +62,6 @@ A real Linux toolbox for rooted webOS: hundreds of packages, a bash shell, packa
 
 [Page](https://ohmybahgosh.dev/webos-entware-installer/) · [Repo](https://github.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER)
 
-</td>
-</tr>
-</table>
 
 **Get all three at once:** on a rooted LG TV, open the Homebrew Channel, go to Settings, choose **Add repository** and enter `https://ohmybahgosh.dev/repo`.  New releases show up there as updates.
 
