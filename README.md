@@ -34,7 +34,7 @@ The IPTV player LG TVs never got.  Free and TiviMate-style for webOS 4 and up: g
 [![Release](https://img.shields.io/github/v/release/ohmybahgosh/TiviBro?include_prereleases&style=flat-square&color=5b8cff&labelColor=0a0e1a&label=release)](https://github.com/ohmybahgosh/TiviBro/releases)
 [![Stars](https://img.shields.io/github/stars/ohmybahgosh/TiviBro?style=flat-square&color=33e1ff&labelColor=0a0e1a)](https://github.com/ohmybahgosh/TiviBro)
 
-[Page](https://ohmybahgosh.dev/tivibro/) · [Repo](https://github.com/ohmybahgosh/TiviBro) · [tivibro.app](https://tivibro.app)
+[Page](https://ohmybahgosh.dev/tivibro/) · [Repo](https://github.com/ohmybahgosh/TiviBro) · [tivibro.app](https://tivibro.app/?utm_source=github&utm_medium=referral&utm_campaign=readme&utm_content=profile)
 
 <br>
 
