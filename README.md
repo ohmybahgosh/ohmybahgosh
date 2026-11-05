@@ -36,8 +36,8 @@ Three apps for LG TVs, each built to solve a problem I had, plus Luna Atlas, a m
 
 The IPTV player LG TVs never got.  Free and TiviMate-style for webOS 4 and up: guide-first, catch-up, movies and shows, sports and PPV, a web editor for your phone and an Android remote.  Bring your own Xtream Codes or M3U.
 
-[![Release](https://img.shields.io/github/v/release/ohmybahgosh/TiviBro?include_prereleases&style=flat-square&color=5b8cff&labelColor=0a0e1a&label=release)](https://github.com/ohmybahgosh/TiviBro/releases)
-[![Stars](https://img.shields.io/github/stars/ohmybahgosh/TiviBro?style=flat-square&color=33e1ff&labelColor=0a0e1a)](https://github.com/ohmybahgosh/TiviBro)
+[![Release](https://ohmybahgosh.dev/badges/tivibro-release.svg)](https://github.com/ohmybahgosh/TiviBro/releases)
+[![Stars](https://ohmybahgosh.dev/badges/tivibro-stars.svg)](https://github.com/ohmybahgosh/TiviBro)
 
 [Page](https://ohmybahgosh.dev/tivibro/) · [Repo](https://github.com/ohmybahgosh/TiviBro) · [tivibro.app](https://tivibro.app/?utm_source=github&utm_medium=referral&utm_campaign=readme&utm_content=profile)
 
@@ -49,8 +49,8 @@ The IPTV player LG TVs never got.  Free and TiviMate-style for webOS 4 and up: g
 
 Makes a USB Ethernet adapter the TV's `eth0`, so settings and streaming apps use the faster wired link: two to three times the built-in port.  Finds, checks and installs a Realtek or ASIX driver for your exact TV, and can keep Wi-Fi as a backup.
 
-[![Release](https://img.shields.io/github/v/release/ohmybahgosh/LG-USB-2-ETH0?style=flat-square&color=3ddc97&labelColor=0a0e1a&label=release)](https://github.com/ohmybahgosh/LG-USB-2-ETH0/releases)
-[![Stars](https://img.shields.io/github/stars/ohmybahgosh/LG-USB-2-ETH0?style=flat-square&color=3ddc97&labelColor=0a0e1a)](https://github.com/ohmybahgosh/LG-USB-2-ETH0)
+[![Release](https://ohmybahgosh.dev/badges/lg-usb-2-eth0-release.svg)](https://github.com/ohmybahgosh/LG-USB-2-ETH0/releases)
+[![Stars](https://ohmybahgosh.dev/badges/lg-usb-2-eth0-stars.svg)](https://github.com/ohmybahgosh/LG-USB-2-ETH0)
 
 [Page](https://ohmybahgosh.dev/lg-usb-2-eth0/) · [Repo](https://github.com/ohmybahgosh/LG-USB-2-ETH0)
 
@@ -62,8 +62,8 @@ Makes a USB Ethernet adapter the TV's `eth0`, so settings and streaming apps use
 
 A real Linux toolbox for rooted webOS: hundreds of packages, a bash shell, package updates and one-press add-ons like git, Python, htop and a login banner.  Lives on the TV's roomy app storage and uninstalls cleanly.
 
-[![Release](https://img.shields.io/github/v/release/ohmybahgosh/WEBOS-ENTWARE-INSTALLER?style=flat-square&color=ff3ea5&labelColor=0a0e1a&label=release)](https://github.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER/releases)
-[![Stars](https://img.shields.io/github/stars/ohmybahgosh/WEBOS-ENTWARE-INSTALLER?style=flat-square&color=ff3ea5&labelColor=0a0e1a)](https://github.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER)
+[![Release](https://ohmybahgosh.dev/badges/entware-release.svg)](https://github.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER/releases)
+[![Stars](https://ohmybahgosh.dev/badges/entware-stars.svg)](https://github.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER)
 
 [Page](https://ohmybahgosh.dev/webos-entware-installer/) · [Repo](https://github.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER)
 
@@ -77,7 +77,7 @@ A real Linux toolbox for rooted webOS: hundreds of packages, a bash shell, packa
 Every LG webOS `luna-send` command in one searchable place: 8,125 methods across 501 services, each with its access level, a confidence flag, its parameters where they're known and a ready-to-run command.  Search and filter it right on the page, and link to any method.  A TV app and command-line tool that read the same catalog are early previews.
 
 [![Methods](https://img.shields.io/badge/methods-8%2C125-3ddc97?style=flat-square&labelColor=0a0e1a)](https://ohmybahgosh.dev/luna-atlas/)
-[![Stars](https://img.shields.io/github/stars/ohmybahgosh/WEBOS-LUNA-SEND-ATLAS?style=flat-square&color=33e1ff&labelColor=0a0e1a)](https://github.com/ohmybahgosh/WEBOS-LUNA-SEND-ATLAS)
+[![Stars](https://ohmybahgosh.dev/badges/luna-atlas-stars.svg)](https://github.com/ohmybahgosh/WEBOS-LUNA-SEND-ATLAS)
 
 [Page](https://ohmybahgosh.dev/luna-atlas/) · [Repo](https://github.com/ohmybahgosh/WEBOS-LUNA-SEND-ATLAS)
 
@@ -99,8 +99,8 @@ pipx install pipseek
 pipseek "web framework"
 ```
 
-[![PyPI](https://img.shields.io/pypi/v/pipseek?style=flat-square&color=4c9eff&labelColor=0a0e1a&label=pypi)](https://pypi.org/project/pipseek/)
-[![Stars](https://img.shields.io/github/stars/ohmybahgosh/pipseek?style=flat-square&color=4c9eff&labelColor=0a0e1a)](https://github.com/ohmybahgosh/pipseek)
+[![Release](https://ohmybahgosh.dev/badges/pipseek-release.svg)](https://pypi.org/project/pipseek/)
+[![Stars](https://ohmybahgosh.dev/badges/pipseek-stars.svg)](https://github.com/ohmybahgosh/pipseek)
 
 [Page](https://ohmybahgosh.dev/pipseek/) · [Repo](https://github.com/ohmybahgosh/pipseek) · [PyPI](https://pypi.org/project/pipseek/)
 
