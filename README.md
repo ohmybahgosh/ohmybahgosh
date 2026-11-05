@@ -74,9 +74,9 @@ A real Linux toolbox for rooted webOS: hundreds of packages, a bash shell, packa
 
 <a href="https://ohmybahgosh.dev/luna-atlas/"><img src="assets/luna-atlas.webp" width="100%" alt="The Luna Atlas catalog on ohmybahgosh.dev: the com.webos.notification service open, with createToast selected, its URI, access level, confidence and parameter table"></a>
 
-Every LG webOS `luna-send` command in one searchable place: 8,167 methods across 501 services, each with its access level, a confidence flag, its parameters where they're known and a ready-to-run command.  Search and filter it right on the page, and link to any method.  A TV app and command-line tool that read the same catalog are early previews.
+Every LG webOS `luna-send` command in one searchable place: 8,125 methods across 501 services, each with its access level, a confidence flag, its parameters where they're known and a ready-to-run command.  Search and filter it right on the page, and link to any method.  A TV app and command-line tool that read the same catalog are early previews.
 
-[![Methods](https://img.shields.io/badge/methods-8%2C167-3ddc97?style=flat-square&labelColor=0a0e1a)](https://ohmybahgosh.dev/luna-atlas/)
+[![Methods](https://img.shields.io/badge/methods-8%2C125-3ddc97?style=flat-square&labelColor=0a0e1a)](https://ohmybahgosh.dev/luna-atlas/)
 [![Stars](https://img.shields.io/github/stars/ohmybahgosh/WEBOS-LUNA-SEND-ATLAS?style=flat-square&color=33e1ff&labelColor=0a0e1a)](https://github.com/ohmybahgosh/WEBOS-LUNA-SEND-ATLAS)
 
 [Page](https://ohmybahgosh.dev/luna-atlas/) · [Repo](https://github.com/ohmybahgosh/WEBOS-LUNA-SEND-ATLAS)
