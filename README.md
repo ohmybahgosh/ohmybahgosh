@@ -30,7 +30,7 @@ tivibro/  usb-2-eth0/  entware/  luna-atlas/  pipseek/
 
 Three apps for LG TVs, each built to solve a problem I had, plus Luna Atlas, a map of everything the TV's system services answer to.  The apps install from the Homebrew Channel and run with the remote, work over SSH too, are tried on a real TV before every release, and remove cleanly.
 
-### <img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/assets/img/tivibro-icon.webp" width="28" align="top" alt=""> [TiviBro](https://ohmybahgosh.dev/tivibro/)
+### <img src="assets/tivibro-icon.png" width="28" align="top" alt=""> [TiviBro](https://ohmybahgosh.dev/tivibro/)
 
 <a href="https://ohmybahgosh.dev/tivibro/"><img src="assets/tivibro.webp" width="100%" alt="The TiviBro guide on a TV: browsing channels, previewing one in the window, then going fullscreen"></a>
 
