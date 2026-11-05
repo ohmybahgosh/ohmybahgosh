@@ -84,6 +84,26 @@ Every LG webOS `luna-send` command in one searchable place: 8,125 methods across
 
 **Get all three apps at once:** on a rooted LG TV, open the Homebrew Channel, go to Settings, choose **Add repository** and enter `https://ohmybahgosh.dev/repo`.  New releases show up there as updates.
 
+## Beyond the TV
+
+Not everything I build runs on a TV.  These are tools for the rest of my setup, and it's where new projects that aren't webOS will land.
+
+### <img src="assets/pipseek-icon.png" width="28" align="top" alt=""> [pipseek](https://ohmybahgosh.dev/pipseek/)
+
+<a href="https://ohmybahgosh.dev/pipseek/"><img src="assets/pipseek.webp" width="100%" alt="The pipseek TUI: typing web framework, moving through Django and Flask with each package's details on the right"></a>
+
+`pip search`, brought back.  PyPI switched it off years ago, so pipseek keeps its own full-text index of every project on PyPI and searches it locally in about 100 ms, even offline.  Use the interactive TUI or plain and JSON output, see downloads, GitHub stars and security scores at a glance, and check your own environment for outdated and vulnerable packages.  No API keys.
+
+```bash
+pipx install pipseek
+pipseek "web framework"
+```
+
+[![PyPI](https://img.shields.io/pypi/v/pipseek?style=flat-square&color=4c9eff&labelColor=0a0e1a&label=pypi)](https://pypi.org/project/pipseek/)
+[![Stars](https://img.shields.io/github/stars/ohmybahgosh/pipseek?style=flat-square&color=4c9eff&labelColor=0a0e1a)](https://github.com/ohmybahgosh/pipseek)
+
+[Page](https://ohmybahgosh.dev/pipseek/) · [Repo](https://github.com/ohmybahgosh/pipseek) · [PyPI](https://pypi.org/project/pipseek/)
+
 ## Yes, I vibe code.  Not blindly.
 
 Not the blind kind, where you paste whatever a model hands you and hope.  AI lets one person build in a weekend what used to take a team a month, and that's a real shift worth using.  But speed without scrutiny is how you ship bugs and security holes at scale.  So everything here gets the same treatment as hand-written code: I design it first, read every line, test it on real hardware, and audit it the way someone who breaks things for fun would.  The AI writes faster.  The judgment is still mine.
@@ -94,7 +114,6 @@ Commits list me as the author and Claude as the committer, so the AI's part is r
 
 | | |
 |---|---|
-| 🔎 **[pipseek](https://ohmybahgosh.dev/pipseek/)** | Search PyPI from your terminal.  An interactive replacement for the retired `pip search`, with full-text search, popularity ranking, package details and JSON output.  [Repo](https://github.com/ohmybahgosh/pipseek) |
 | 🔐 **[RockYou2021.txt](https://github.com/ohmybahgosh/RockYou2021.txt)** | A large password-auditing wordlist used for security testing.  Words only, no logins. |
 | 🖥️ **[Seedbox Tweaks and Optimizations](https://github.com/ohmybahgosh/Seedbox-Tweaks-and-Optimizations)** | Scripts and configs from years of running a seedbox: rclone mounts, nginx, Plex settings and more. |
 | 🎮 **[Plex skip-intro D-pad fix](https://github.com/ohmybahgosh/NVIDIA-SHIELD-PLEX-DPAD-KEYLAYOUT)** | Makes a D-pad's OK button actually press Skip Intro in Plex on Android TV.  Also as a [Magisk module](https://github.com/ohmybahgosh/PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX). |
