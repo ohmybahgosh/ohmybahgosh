@@ -70,7 +70,7 @@ A real Linux toolbox for rooted webOS: hundreds of packages, a bash shell, packa
 
 <br>
 
-### <img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/assets/img/luna-atlas-icon.webp" width="28" align="top" alt=""> [Luna Atlas](https://ohmybahgosh.dev/luna-atlas/)
+### <img src="https://raw.githubusercontent.com/ohmybahgosh/WEBOS-LUNA-SEND-ATLAS/main/assets/brand/icon.svg" width="28" align="top" alt=""> [Luna Atlas](https://ohmybahgosh.dev/luna-atlas/)
 
 <a href="https://ohmybahgosh.dev/luna-atlas/"><img src="assets/luna-atlas.webp" width="100%" alt="The Luna Atlas catalog on ohmybahgosh.dev: the com.webos.notification service open, with createToast selected, its URI, access level, confidence and parameter table"></a>
 
