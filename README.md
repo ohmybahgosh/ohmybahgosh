@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://ohmybahgosh.dev"><img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/docs/banner.svg" width="100%" alt="ohmybahgosh.dev: software LG forgot to ship.  Homebrew Channel apps for LG webOS TVs: TiviBro, LG-USB-2-ETH0 and Entware"></a>
+<a href="https://ohmybahgosh.dev"><img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/docs/banner.svg" width="100%" alt="ohmybahgosh.dev: open-source things I build and share, now focused on LG webOS homebrew: TiviBro, LG-USB-2-ETH0, Entware, Luna Atlas and pipseek"></a>
 
 [![ohmybahgosh.dev](https://img.shields.io/badge/ohmybahgosh.dev-visit-33e1ff?style=flat-square&labelColor=0a0e1a)](https://ohmybahgosh.dev)
 [![About](https://img.shields.io/badge/whoami-about-8b5cff?style=flat-square&labelColor=0a0e1a)](https://ohmybahgosh.dev/about/)
@@ -19,11 +19,16 @@ By day I'm a data engineer, and the Swiss Army knife of the team.  On any given 
 
 Off the clock I'm into penetration testing and network security: finding the weak spot before someone else does.  I also automate anything that holds still long enough.
 
-That's how my TV ended up running a homebrew IPTV player I wrote because the one I wanted didn't exist on webOS.  Its Ethernet port is a USB adapter pretending to be the built-in one.  It has a full Linux toolbox installed, and a remote dedicated server keeps the media flowing.  All three of those are now apps anyone can install from the Homebrew Channel.
+That's how my TV ended up running a homebrew IPTV player I wrote because the one I wanted didn't exist on webOS.  Its Ethernet port is a USB adapter pretending to be the built-in one.  It has a full Linux toolbox installed, and a remote dedicated server keeps the media flowing.  All three of those are now apps anyone can install from the Homebrew Channel.  And when I wanted to know what else the TV could do, I mapped every `luna-send` command it answers to.
 
-## LG webOS homebrew
+## Current focus: LG webOS homebrew
 
-Three apps for LG TVs, each built to solve a problem I had.  They install from the Homebrew Channel and run with the remote, work over SSH too, are tried on a real TV before every release, and remove cleanly.
+```console
+$ ls projects/
+tivibro/  usb-2-eth0/  entware/  luna-atlas/  pipseek/
+```
+
+Three apps for LG TVs, each built to solve a problem I had, plus Luna Atlas, a map of everything the TV's system services answer to.  The apps install from the Homebrew Channel and run with the remote, work over SSH too, are tried on a real TV before every release, and remove cleanly.
 
 ### <img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/assets/img/tivibro-icon.webp" width="28" align="top" alt=""> [TiviBro](https://ohmybahgosh.dev/tivibro/)
 
@@ -63,7 +68,21 @@ A real Linux toolbox for rooted webOS: hundreds of packages, a bash shell, packa
 [Page](https://ohmybahgosh.dev/webos-entware-installer/) · [Repo](https://github.com/ohmybahgosh/WEBOS-ENTWARE-INSTALLER)
 
 
-**Get all three at once:** on a rooted LG TV, open the Homebrew Channel, go to Settings, choose **Add repository** and enter `https://ohmybahgosh.dev/repo`.  New releases show up there as updates.
+<br>
+
+### <img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/assets/img/luna-atlas-icon.webp" width="28" align="top" alt=""> [Luna Atlas](https://ohmybahgosh.dev/luna-atlas/)
+
+<a href="https://ohmybahgosh.dev/luna-atlas/"><img src="assets/luna-atlas.webp" width="100%" alt="The Luna Atlas catalog on ohmybahgosh.dev: the com.webos.notification service open, with createToast selected, its URI, access level, confidence and parameter table"></a>
+
+Every LG webOS `luna-send` command in one searchable place: 8,167 methods across 501 services, each with its access level, a confidence flag, its parameters where they're known and a ready-to-run command.  Search and filter it right on the page, and link to any method.  A TV app and command-line tool that read the same catalog are early previews.
+
+[![Methods](https://img.shields.io/badge/methods-8%2C167-3ddc97?style=flat-square&labelColor=0a0e1a)](https://ohmybahgosh.dev/luna-atlas/)
+[![Stars](https://img.shields.io/github/stars/ohmybahgosh/WEBOS-LUNA-SEND-ATLAS?style=flat-square&color=33e1ff&labelColor=0a0e1a)](https://github.com/ohmybahgosh/WEBOS-LUNA-SEND-ATLAS)
+
+[Page](https://ohmybahgosh.dev/luna-atlas/) · [Repo](https://github.com/ohmybahgosh/WEBOS-LUNA-SEND-ATLAS)
+
+
+**Get all three apps at once:** on a rooted LG TV, open the Homebrew Channel, go to Settings, choose **Add repository** and enter `https://ohmybahgosh.dev/repo`.  New releases show up there as updates.
 
 ## Yes, I vibe code.  Not blindly.
 
@@ -75,7 +94,7 @@ Commits list me as the author and Claude as the committer, so the AI's part is r
 
 | | |
 |---|---|
-| 🔎 **[pipseek](https://github.com/ohmybahgosh/pipseek)** | Search PyPI from your terminal.  An interactive replacement for the retired `pip search`, with full-text search, popularity ranking, package details and JSON output. |
+| 🔎 **[pipseek](https://ohmybahgosh.dev/pipseek/)** | Search PyPI from your terminal.  An interactive replacement for the retired `pip search`, with full-text search, popularity ranking, package details and JSON output.  [Repo](https://github.com/ohmybahgosh/pipseek) |
 | 🔐 **[RockYou2021.txt](https://github.com/ohmybahgosh/RockYou2021.txt)** | A large password-auditing wordlist used for security testing.  Words only, no logins. |
 | 🖥️ **[Seedbox Tweaks and Optimizations](https://github.com/ohmybahgosh/Seedbox-Tweaks-and-Optimizations)** | Scripts and configs from years of running a seedbox: rclone mounts, nginx, Plex settings and more. |
 | 🎮 **[Plex skip-intro D-pad fix](https://github.com/ohmybahgosh/NVIDIA-SHIELD-PLEX-DPAD-KEYLAYOUT)** | Makes a D-pad's OK button actually press Skip Intro in Plex on Android TV.  Also as a [Magisk module](https://github.com/ohmybahgosh/PLEX_SKIP_INTRO_DPAD_CONTROLLER_FIX). |
