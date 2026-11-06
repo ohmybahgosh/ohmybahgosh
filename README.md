@@ -45,9 +45,9 @@ The IPTV player LG TVs never got.  Free and TiviMate-style for webOS 4 and up: g
 
 ### <img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/assets/img/eth0-icon.webp" width="28" align="top" alt=""> [LG-USB-2-ETH0](https://ohmybahgosh.dev/lg-usb-2-eth0/)
 
-<a href="https://ohmybahgosh.dev/lg-usb-2-eth0/"><img src="assets/eth0.webp" width="100%" alt="The LG-USB-2-ETH0 app on an LG C2: scrolling the menu, opening the Wi-Fi as a backup confirmation and the Report for GitHub QR code, then back to the top"></a>
+<a href="https://ohmybahgosh.dev/lg-usb-2-eth0/"><img src="assets/eth0.webp" width="100%" alt="The LG-USB-2-ETH0 app as a 2019 C9 with a Realtek adapter in Realtek mode: scrolling the menu, opening the Wi-Fi as a backup confirmation and the Report for GitHub QR code, then back to the top"></a>
 
-Makes a USB Ethernet adapter the TV's `eth0`, so settings and streaming apps use the faster wired link: two to three times the built-in port.  Finds, checks and installs a Realtek or ASIX driver for your exact TV, and can keep Wi-Fi as a backup.
+Makes a USB Ethernet adapter the TV's `eth0`, so settings and streaming apps use the faster wired link: two to three times the built-in port.  Finds, checks and installs a Realtek or ASIX driver for your exact TV, moves Realtek adapters onto the TV's own driver where it has one, and can keep Wi-Fi as a backup.
 
 [![Release](https://ohmybahgosh.dev/badges/lg-usb-2-eth0-release.svg)](https://github.com/ohmybahgosh/LG-USB-2-ETH0/releases)
 [![Stars](https://ohmybahgosh.dev/badges/lg-usb-2-eth0-stars.svg)](https://github.com/ohmybahgosh/LG-USB-2-ETH0)
