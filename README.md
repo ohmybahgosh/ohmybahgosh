@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://ohmybahgosh.dev"><img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/docs/banner.svg" width="100%" alt="ohmybahgosh.dev: open-source things I build and share, now focused on LG webOS homebrew: TiviBro, LG-USB-2-ETH0, Entware, Luna Atlas and pipseek"></a>
+<a href="https://ohmybahgosh.dev"><img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/docs/banner.svg" width="100%" alt="ohmybahgosh.dev: open-source things I build and share, now focused on LG webOS homebrew: TiviBro, LG-USB-2-ETH0, Entware, SSH Doctor, Luna Atlas and pipseek"></a>
 
 [![ohmybahgosh.dev](https://img.shields.io/badge/ohmybahgosh.dev-visit-33e1ff?style=flat-square&labelColor=0a0e1a)](https://ohmybahgosh.dev)
 [![About](https://img.shields.io/badge/whoami-about-8b5cff?style=flat-square&labelColor=0a0e1a)](https://ohmybahgosh.dev/about/)
@@ -19,16 +19,16 @@ By day I'm a data engineer, and the Swiss Army knife of the team.  On any given 
 
 Off the clock I'm into penetration testing and network security: finding the weak spot before someone else does.  I also automate anything that holds still long enough.
 
-That's how my TV ended up running a homebrew IPTV player I wrote because the one I wanted didn't exist on webOS.  Its Ethernet port is a USB adapter pretending to be the built-in one.  It has a full Linux toolbox installed, and a remote dedicated server keeps the media flowing.  All three of those are now apps anyone can install from the Homebrew Channel.  And when I wanted to know what else the TV could do, I mapped every `luna-send` command it answers to.
+That's how my TV ended up running a homebrew IPTV player I wrote because the one I wanted didn't exist on webOS.  Its Ethernet port is a USB adapter pretending to be the built-in one.  It has a full Linux toolbox installed, and a remote dedicated server keeps the media flowing.  All three of those are now apps anyone can install from the Homebrew Channel, along with a fourth for when SSH on the TV breaks.  And when I wanted to know what else the TV could do, I mapped every `luna-send` command it answers to.
 
 ## Current focus: LG webOS homebrew
 
 ```console
 $ ls projects/
-tivibro/  usb-2-eth0/  entware/  luna-atlas/  pipseek/
+tivibro/  usb-2-eth0/  entware/  ssh-doctor/  luna-atlas/  pipseek/
 ```
 
-Three apps for LG TVs, each built to solve a problem I had, plus Luna Atlas, a map of everything the TV's system services answer to.  The apps install from the Homebrew Channel and run with the remote, work over SSH too, are tried on a real TV before every release, and remove cleanly.
+Four apps for LG TVs, each built to solve a problem I had, plus Luna Atlas, a map of everything the TV's system services answer to.  The apps install from the Homebrew Channel and run with the remote, work over SSH too, are tried on a real TV before every release, and remove cleanly.
 
 ### <img src="assets/tivibro-icon.png" width="28" align="top" alt=""> [TiviBro](https://ohmybahgosh.dev/tivibro/)
 
@@ -70,6 +70,19 @@ A real Linux toolbox for rooted webOS: hundreds of packages, a bash shell, packa
 
 <br>
 
+### <img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/assets/img/ssh-doctor-icon.webp" width="28" align="top" alt=""> [SSH Doctor](https://ohmybahgosh.dev/ssh-doctor/)
+
+<a href="https://ohmybahgosh.dev/ssh-doctor/"><img src="assets/ssh-doctor.webp" width="100%" alt="SSH Doctor on a TV: SSH works, running on port 2222 and 22 for now, logging in with your password and 2 keys, with the menu on the right"></a>
+
+SSH on a rooted TV stopped working?  This finds out why and fixes it with the remote: a broken `authorized_keys`, a lost `alpine` password, SSH that's off.  Pairs a key from your phone with a short code, and sets your own password, keys only or another port.  It runs through the Homebrew Channel, so it works even when SSH doesn't.
+
+[![Release](https://ohmybahgosh.dev/badges/ssh-doctor-release.svg)](https://github.com/ohmybahgosh/LG-WEBOS-SSH-DOCTOR/releases)
+[![Stars](https://ohmybahgosh.dev/badges/ssh-doctor-stars.svg)](https://github.com/ohmybahgosh/LG-WEBOS-SSH-DOCTOR)
+
+[Page](https://ohmybahgosh.dev/ssh-doctor/) · [Repo](https://github.com/ohmybahgosh/LG-WEBOS-SSH-DOCTOR)
+
+<br>
+
 ### <img src="https://raw.githubusercontent.com/ohmybahgosh/WEBOS-LUNA-SEND-ATLAS/main/assets/brand/icon.svg" width="28" align="top" alt=""> [Luna Atlas](https://ohmybahgosh.dev/luna-atlas/)
 
 <a href="https://ohmybahgosh.dev/luna-atlas/"><img src="assets/luna-atlas.webp" width="100%" alt="The Luna Atlas catalog on ohmybahgosh.dev: the com.webos.notification service open, with createToast selected, its URI, access level, confidence and parameter table"></a>
@@ -82,7 +95,7 @@ Every LG webOS `luna-send` command in one searchable place: 8,125 methods across
 [Page](https://ohmybahgosh.dev/luna-atlas/) · [Repo](https://github.com/ohmybahgosh/WEBOS-LUNA-SEND-ATLAS)
 
 
-**Get all three apps at once:** on a rooted LG TV, open the Homebrew Channel, go to Settings, choose **Add repository** and enter `https://ohmybahgosh.dev/repo`.  New releases show up there as updates.
+**Get all four apps at once:** on a rooted LG TV, open the Homebrew Channel, go to Settings, choose **Add repository** and enter `https://ohmybahgosh.dev/repo`.  New releases show up there as updates.
 
 ## Beyond the TV
 
