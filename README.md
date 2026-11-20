@@ -1,6 +1,6 @@
 <div align="center">
 
-<a href="https://ohmybahgosh.dev"><img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/docs/banner.svg" width="100%" alt="ohmybahgosh.dev: open-source things I build and share, now focused on LG webOS homebrew: TiviBro, LG-USB-2-ETH0, Entware, SSH Doctor, Luna Atlas and pipseek"></a>
+<a href="https://ohmybahgosh.dev"><img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/docs/banner.svg" width="100%" alt="ohmybahgosh.dev: open-source things I build and share, now focused on LG webOS homebrew: TiviBro, LG-USB-2-ETH0, Entware, SSH Doctor, FW Block, Luna Atlas and pipseek"></a>
 
 [![ohmybahgosh.dev](https://img.shields.io/badge/ohmybahgosh.dev-visit-33e1ff?style=flat-square&labelColor=0a0e1a)](https://ohmybahgosh.dev)
 [![About](https://img.shields.io/badge/whoami-about-8b5cff?style=flat-square&labelColor=0a0e1a)](https://ohmybahgosh.dev/about/)
@@ -19,7 +19,7 @@ By day I'm a data engineer, and the Swiss Army knife of the team.  On any given 
 
 Off the clock I'm into penetration testing and network security: finding the weak spot before someone else does.  I also automate anything that holds still long enough.
 
-That's how my TV ended up running a homebrew IPTV player I wrote because the one I wanted didn't exist on webOS.  Its Ethernet port is a USB adapter pretending to be the built-in one.  It has a full Linux toolbox installed, and a remote dedicated server keeps the media flowing.  All three of those are now apps anyone can install from the Homebrew Channel, along with a fourth for when SSH on the TV breaks.  And when I wanted to know what else the TV could do, I mapped every `luna-send` command it answers to.
+That's how my TV ended up running a homebrew IPTV player I wrote because the one I wanted didn't exist on webOS.  Its Ethernet port is a USB adapter pretending to be the built-in one.  It has a full Linux toolbox installed, and a remote dedicated server keeps the media flowing.  All three of those are now apps anyone can install from the Homebrew Channel, along with a fourth for when SSH on the TV breaks, and a fifth that keeps LG's firmware updates from taking root away.  And when I wanted to know what else the TV could do, I mapped every `luna-send` command it answers to.
 
 ## Current focus: LG webOS homebrew
 
@@ -83,6 +83,19 @@ SSH on a rooted TV stopped working?  This finds out why and fixes it with the re
 
 <br>
 
+### <img src="https://raw.githubusercontent.com/ohmybahgosh/ohmybahgosh.dev/main/assets/img/fw-block-icon.webp" width="28" align="top" alt=""> [FW Block](https://ohmybahgosh.dev/fw-block/)
+
+<a href="https://ohmybahgosh.dev/fw-block/"><img src="assets/fw-block.webp" width="100%" alt="FW Block on a TV: firmware updates blocked, the update check off, 7 of 7 update servers, the fallback address, LG Remote Support and phone apps blocked, with the Blocks tab's switches on the right"></a>
+
+One firmware update can take root away for good.  FW Block closes every way LG can update the TV that I found by running LG's own updater in a sandbox: the update check, all seven update servers, the fallback IP, LG Remote Support, phone app updates and a download that starts anyway, checked every 10 minutes.  Works alongside LG-USB-2-ETH0 and the Homebrew Channel, with backups and signed updates.
+
+[![Release](https://ohmybahgosh.dev/badges/fw-block-release.svg)](https://github.com/ohmybahgosh/WEBOS-FW-BLOCK/releases)
+[![Stars](https://ohmybahgosh.dev/badges/fw-block-stars.svg)](https://github.com/ohmybahgosh/WEBOS-FW-BLOCK)
+
+[Page](https://ohmybahgosh.dev/fw-block/) · [Repo](https://github.com/ohmybahgosh/WEBOS-FW-BLOCK)
+
+<br>
+
 ### <img src="https://raw.githubusercontent.com/ohmybahgosh/WEBOS-LUNA-SEND-ATLAS/main/assets/brand/icon.svg" width="28" align="top" alt=""> [Luna Atlas](https://ohmybahgosh.dev/luna-atlas/)
 
 <a href="https://ohmybahgosh.dev/luna-atlas/"><img src="assets/luna-atlas.webp" width="100%" alt="The Luna Atlas catalog on ohmybahgosh.dev: the com.webos.notification service open, with createToast selected, its URI, access level, confidence and parameter table"></a>
@@ -95,7 +108,7 @@ Every LG webOS `luna-send` command in one searchable place: 8,125 methods across
 [Page](https://ohmybahgosh.dev/luna-atlas/) · [Repo](https://github.com/ohmybahgosh/WEBOS-LUNA-SEND-ATLAS)
 
 
-**Get all four apps at once:** on a rooted LG TV, open the Homebrew Channel, go to Settings, choose **Add repository** and enter `https://ohmybahgosh.dev/repo`.  New releases show up there as updates.
+**Get all five apps at once:** on a rooted LG TV, open the Homebrew Channel, go to Settings, choose **Add repository** and enter `https://ohmybahgosh.dev/repo`.  New releases show up there as updates.
 
 ## Beyond the TV
 
