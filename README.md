@@ -34,7 +34,7 @@ Four apps for LG TVs, each built to solve a problem I had, plus Luna Atlas, a ma
 
 <a href="https://ohmybahgosh.dev/tivibro/"><img src="assets/tivibro.webp" width="100%" alt="The TiviBro guide on a TV: browsing channels, previewing one in the window, then going fullscreen"></a>
 
-The IPTV player LG TVs never got.  Free and TiviMate-style for webOS 4 and up: guide-first, catch-up, movies and shows, sports and PPV, a web editor for your phone and an Android remote.  Bring your own Xtream Codes or M3U.
+The IPTV player LG TVs never got.  Free and TiviMate-style for webOS 4 and up: guide-first, live sports scores, Multiview, catch-up, movies and shows, sports and PPV, a web editor for your phone and an Android remote.  Bring your own Xtream Codes or M3U.
 
 [![Release](https://ohmybahgosh.dev/badges/tivibro-release.svg)](https://github.com/ohmybahgosh/TiviBro/releases)
 [![Stars](https://ohmybahgosh.dev/badges/tivibro-stars.svg)](https://github.com/ohmybahgosh/TiviBro)
